@@ -1,6 +1,6 @@
 # Privacy Policy – UNREP - Unlock Apps with Reps
 
-**Last Updated: August 2026**
+**Last Updated: October 2026**
 
 Your privacy is our top priority. This Privacy Policy explains how the App UNREP - Unlock Apps with Reps (hereinafter "the App") processes data and what your rights are.
 
@@ -109,7 +109,7 @@ Your profile information (e.g. age, gender, weight) and workout statistics (e.g.
 - Location data
 - Contact lists
 - Video or images from the camera (processed on-device only, see Section 3)
-- Health & fitness data or Screen Time/app-blocking data (processed on-device only, see Sections 5 and 6) — we never receive this data on our servers, even though the App requests permission to access it locally on your device
+- Health & fitness data or Screen Time/app-blocking data (processed on-device only, see Sections 6 and 7) — we never receive this data on our servers, even though the App requests permission to access it locally on your device
 
 ---
 
@@ -119,7 +119,7 @@ You have the following rights regarding your personal data:
 
 - **Right of Access (Art. 15 GDPR):** You can request information about the data we hold. Given our Privacy by Design approach, this typically only includes an anonymous PostHog analytics ID.
 - **Right to Erasure (Art. 17 GDPR):** You can delete all local data at any time using the "Delete All Data" button in the App's Settings, which permanently erases all local app data, resets your analytics ID, and signs you out of RevenueCat — restoring the App to its initial installation state. Alternatively, uninstalling the App achieves the same result.
-- **Right to Withdraw Consent (Art. 7 (3) GDPR):** You can change your tracking preferences at any time in iOS System Settings under **Privacy & Security → Tracking**.
+- **Right to Withdraw Consent (Art. 7 (3) GDPR):** You can withdraw your consent to analytics at any time with effect for the future via the "Share anonymous usage data" toggle in the App's Settings.
 - **Right to Object (Art. 21 GDPR):** You may object to processing based on legitimate interests at any time.
 - **Right to Lodge a Complaint (Art. 77 GDPR):** You have the right to lodge a complaint with a supervisory authority. The competent authority for VAMIT UG is: Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (LDI NRW), Kavalleriestraße 2–4, 40213 Düsseldorf, https://www.ldi.nrw.de
 
@@ -131,7 +131,7 @@ To exercise your rights, please contact us at: info@vam-it.com
 
 We follow a **Privacy by Design** approach:
 
-- The most sensitive data (camera feed) is processed exclusively on-device and never transmitted, making unauthorised server-side access technically impossible.
+- The most sensitive data (camera feed) is processed exclusively on-device and never transmitted to our servers.
 - All network communication (e.g., PostHog analytics) is encrypted via TLS/SSL.
 - This landing page is served exclusively over HTTPS.
 
@@ -149,7 +149,19 @@ Within the App, we provide a link to an external feedback platform ("Featurebase
 
 ---
 
-## 14. Changes to This Privacy Policy
+## 14. Advertising & Install Attribution (Meta / Apple SKAdNetwork)
+
+We advertise the App on Facebook and Instagram (Meta Platforms Ireland Ltd.). To measure whether an installation resulted from one of our ads, we use Apple's SKAdNetwork framework. The App does not contain any Meta/Facebook SDK and does not access your advertising identifier (IDFA).
+
+How it works: Attribution is determined by Apple on your device. Apple then sends a cryptographically signed, anonymous and aggregated notification to Meta, containing only the campaign and the fact that an installation occurred. No device identifiers, usage data, health data or other personal data from the App are transmitted to Meta or to us.
+
+Display of ads: The display and targeting of ads on Facebook and Instagram is the sole responsibility of Meta. Please refer to Meta's privacy policy: https://www.facebook.com/privacy/policy
+
+Legal Basis: To the extent personal data is processed at all, our legitimate interest in measuring the effectiveness of our advertising (Art. 6 (1) (f) GDPR).
+
+---
+
+## 15. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time to reflect changes in the App or applicable law. The current version is always available at vamiapp.com/privacy. Material changes will be communicated via an in-app notice where required by law.
 

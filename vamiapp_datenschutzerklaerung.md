@@ -1,6 +1,6 @@
 # Datenschutzerklärung – UNREP - Unlock Apps with Reps
 
-**Stand: August 2026**
+**Stand: Oktober 2026**
 
 Der Schutz deiner Privatsphäre ist uns äußerst wichtig. Diese Datenschutzerklärung erklärt, wie die App UNREP - Unlock Apps with Reps (nachfolgend „die App") Daten verarbeitet und welche Rechte du hast.
 
@@ -110,7 +110,7 @@ Deine Trainingsdaten (z. B. Anzahl der Liegestütze, persönliche Rekorde, Ziele
 - Standortdaten
 - Kontaktlisten
 - Video- oder Bilddaten der Kamera (ausschließlich lokal verarbeitet, siehe Abschnitt 3)
-- Gesundheits- und Fitnessdaten sowie Screen-Time-/App-Blockierungsdaten (ausschließlich lokal verarbeitet, siehe Abschnitte 5 und 6) — diese Daten erreichen unsere Server zu keinem Zeitpunkt, auch wenn die App um lokale Zugriffsberechtigung dafür bittet
+- Gesundheits- und Fitnessdaten sowie Screen-Time-/App-Blockierungsdaten (ausschließlich lokal verarbeitet, siehe Abschnitte 6 und 7) — diese Daten erreichen unsere Server zu keinem Zeitpunkt, auch wenn die App um lokale Zugriffsberechtigung dafür bittet
 
 ---
 
@@ -120,7 +120,7 @@ Du hast gegenüber uns folgende Rechte hinsichtlich deiner personenbezogenen Dat
 
 - **Recht auf Auskunft (Art. 15 DSGVO):** Du kannst Auskunft über die von uns gespeicherten Daten verlangen. Aufgrund unseres Privacy-by-Design-Ansatzes handelt es sich in der Regel nur um eine anonyme PostHog-ID.
 - **Recht auf Löschung (Art. 17 DSGVO):** Du kannst alle lokalen Daten jederzeit durch Deinstallation der App löschen.
-- **Recht auf Widerruf (Art. 7 Abs. 3 DSGVO):** Du kannst deine Tracking-Einwilligung jederzeit in den iOS-Systemeinstellungen unter **Datenschutz & Sicherheit → Tracking** widerrufen.
+- **Recht auf Widerruf (Art. 7 Abs. 3 DSGVO):** Du kannst deine Einwilligung zur Analyse jederzeit mit Wirkung für die Zukunft über den Schalter "Anonyme Nutzungsdaten teilen" in den Einstellungen der App widerrufen.
 - **Widerspruchsrecht (Art. 21 DSGVO):** Du kannst der auf berechtigten Interessen gestützten Verarbeitung jederzeit widersprechen.
 - **Beschwerderecht (Art. 77 DSGVO):** Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Zuständig für VAMIT UG ist: Landesbeauftragte für Datenschutz und Informationsfreiheit NRW (LDI NRW), Kavalleriestraße 2–4, 40213 Düsseldorf, https://www.ldi.nrw.de
 
@@ -132,7 +132,7 @@ Zur Ausübung deiner Rechte wende dich bitte an: info@vam-it.com
 
 Wir verfolgen einen **Privacy-by-Design**-Ansatz:
 
-- Die sensibelsten Daten (Kamerabild) werden ausschließlich lokal verarbeitet und nie übertragen – ein unbefugter Zugriff über unsere Server ist technisch ausgeschlossen.
+- Die sensibelsten Daten (Kamerabild) werden ausschließlich lokal verarbeitet und nie an unsere Server übertragen.
 - Alle Netzwerkkommunikation (z. B. PostHog-Analyse) ist durch TLS/SSL verschlüsselt.
 - Diese Landingpage wird ausschließlich über HTTPS ausgeliefert.
 
@@ -144,7 +144,25 @@ Diese App richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich 
 
 ---
 
-## 13. Aktualität und Änderung dieser Datenschutzerklärung
+## 13. Feedback (Featurebase)
+
+Innerhalb der App verlinken wir auf eine externe Feedback-Plattform ("Featurebase"), auf der du Feature-Wünsche und Feedback anonym, ohne Registrierung oder Anmeldung, einreichen kannst. Beim Tippen auf diesen Link verlässt du die App und wirst im Browser deines Geräts zur Featurebase-Website weitergeleitet. Etwaige dort von dir eingegebene Daten (z. B. Feedback-Text) werden direkt von Featurebase, Inc. verarbeitet, nicht von uns. Wir erhalten, speichern oder haben keinen Zugriff auf die auf dieser Plattform übermittelten Daten. Informationen zur Datenverarbeitung durch Featurebase findest du in deren eigener Datenschutzerklärung.
+
+---
+
+## 14. Werbung & Installations-Attribution (Meta / Apple SKAdNetwork)
+
+Wir bewerben die App auf Facebook und Instagram (Meta Platforms Ireland Ltd.). Um zu messen, ob eine Installation auf eine unserer Anzeigen zurückgeht, nutzen wir Apples SKAdNetwork-Framework. Die App enthält kein Meta/Facebook SDK und greift nicht auf deine Werbe-ID (IDFA) zu.
+
+Funktionsweise: Die Zuordnung erfolgt durch Apple auf deinem Gerät. Apple übermittelt anschließend eine kryptografisch signierte, anonyme und aggregierte Meldung an Meta, die lediglich die Kampagne und die erfolgte Installation enthält. Es werden keine Gerätekennungen, Nutzungsdaten, Gesundheitsdaten oder sonstigen personenbezogenen Daten aus der App an Meta oder an uns übertragen.
+
+Ausspielung der Anzeigen: Für die Ausspielung und Zielgruppenauswahl von Anzeigen auf Facebook und Instagram ist allein Meta verantwortlich. Details findest du in der Datenschutzerklärung von Meta: https://www.facebook.com/privacy/policy
+
+Rechtsgrundlage: Soweit überhaupt personenbezogene Daten verarbeitet werden, unser berechtigtes Interesse an der Erfolgsmessung unserer Werbung (Art. 6 Abs. 1 lit. f DSGVO).
+
+---
+
+## 15. Aktualität und Änderung dieser Datenschutzerklärung
 
 Wir können diese Datenschutzerklärung bei Änderungen der App oder der rechtlichen Anforderungen aktualisieren. Die jeweils aktuelle Fassung ist stets unter vamiapp.com/privacy abrufbar. Wesentliche Änderungen werden, soweit gesetzlich erforderlich, durch einen In-App-Hinweis kommuniziert.
 

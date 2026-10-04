@@ -12,7 +12,7 @@ const Privacy = () => {
         className="glass-effect p-8 rounded-2xl mb-8"
       >
         <h1 className="text-4xl font-bold text-gradient mb-4">Privacy Policy - UNREP - Unlock Apps with Reps</h1>
-        <p className="text-sm text-gray-400 mb-8">Last Updated: August 2026</p>
+        <p className="text-sm text-gray-400 mb-8">Last Updated: October 2026</p>
 
         <div className="space-y-6 text-gray-300">
           <p className="leading-relaxed">
@@ -210,7 +210,7 @@ const Privacy = () => {
               <li className="leading-relaxed">Location data</li>
               <li className="leading-relaxed">Contact lists</li>
               <li className="leading-relaxed">Video or images from the camera (processed on-device only, see Section 3)</li>
-              <li className="leading-relaxed">Health & fitness data or Screen Time/app-blocking data (processed on-device only, see Sections 5 and 6) — we never receive this data on our servers, even though the App requests permission to access it locally on your device</li>
+              <li className="leading-relaxed">Health & fitness data or Screen Time/app-blocking data (processed on-device only, see Sections 6 and 7) — we never receive this data on our servers, even though the App requests permission to access it locally on your device</li>
             </ul>
           </section>
 
@@ -225,7 +225,7 @@ const Privacy = () => {
                 <span className="text-vami-primary font-semibold">Right to Erasure (Art. 17 GDPR):</span> You can delete all local data at any time using the "Delete All Data" button in the App's Settings, which permanently erases all local app data, resets your analytics ID, and signs you out of RevenueCat — restoring the App to its initial installation state. Alternatively, uninstalling the App achieves the same result.
               </li>
               <li className="leading-relaxed">
-                <span className="text-vami-primary font-semibold">Right to Withdraw Consent (Art. 7 (3) GDPR):</span> You can change your tracking preferences at any time in iOS System Settings under <span className="text-vami-primary font-semibold">Privacy &amp; Security → Tracking</span>.
+                <span className="text-vami-primary font-semibold">Right to Withdraw Consent (Art. 7 (3) GDPR):</span> You can withdraw your consent to analytics at any time with effect for the future via the <span className="text-vami-primary font-semibold">&quot;Share anonymous usage data&quot;</span> toggle in the App&apos;s Settings.
               </li>
               <li className="leading-relaxed">
                 <span className="text-vami-primary font-semibold">Right to Object (Art. 21 GDPR):</span> You may object to processing based on legitimate interests at any time.
@@ -250,7 +250,7 @@ const Privacy = () => {
             <h2 className="text-2xl font-semibold text-white mb-3">11. Data Security</h2>
             <p className="leading-relaxed mb-3">We follow a <span className="text-vami-primary font-semibold">Privacy by Design</span> approach:</p>
             <ul className="space-y-2 ml-4">
-              <li className="leading-relaxed">The most sensitive data (camera feed) is processed exclusively on-device and never transmitted, making unauthorised server-side access technically impossible.</li>
+              <li className="leading-relaxed">The most sensitive data (camera feed) is processed exclusively on-device and never transmitted to our servers.</li>
               <li className="leading-relaxed">All network communication (e.g., PostHog analytics) is encrypted via TLS/SSL.</li>
               <li className="leading-relaxed">This landing page is served exclusively over HTTPS.</li>
             </ul>
@@ -273,7 +273,42 @@ const Privacy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-3">14. Changes to This Privacy Policy</h2>
+            <h2 className="text-2xl font-semibold text-white mb-3">14. Advertising &amp; Install Attribution (Meta / Apple SKAdNetwork)</h2>
+            <p className="leading-relaxed mb-3">
+              We advertise the App on Facebook and Instagram (Meta Platforms Ireland Ltd.). To measure
+              whether an installation resulted from one of our ads, we use Apple&apos;s SKAdNetwork
+              framework. The App does not contain any Meta/Facebook SDK and does not access your
+              advertising identifier (IDFA).
+            </p>
+            <p className="leading-relaxed mb-3">
+              <span className="text-vami-primary font-semibold">How it works:</span> Attribution is
+              determined by Apple on your device. Apple then sends a cryptographically signed, anonymous
+              and aggregated notification to Meta, containing only the campaign and the fact that an
+              installation occurred. No device identifiers, usage data, health data or other personal
+              data from the App are transmitted to Meta or to us.
+            </p>
+            <p className="leading-relaxed mb-3">
+              <span className="text-vami-primary font-semibold">Display of ads:</span> The display
+              and targeting of ads on Facebook and Instagram is the sole responsibility of Meta. Please
+              refer to Meta&apos;s privacy policy:{' '}
+              <a
+                href="https://www.facebook.com/privacy/policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-vami-primary hover:text-orange-400 transition-colors"
+              >
+                https://www.facebook.com/privacy/policy
+              </a>
+            </p>
+            <p className="leading-relaxed">
+              <span className="text-vami-primary font-semibold">Legal Basis:</span> To the extent
+              personal data is processed at all, our legitimate interest in measuring the effectiveness
+              of our advertising (Art. 6 (1) (f) GDPR).
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">15. Changes to This Privacy Policy</h2>
             <p className="leading-relaxed">
               We may update this Privacy Policy from time to time to reflect changes in the App or
               applicable law. The current version is always available at <span className="text-vami-primary font-semibold">vamiapp.com/privacy</span>. Material
@@ -295,7 +330,7 @@ const Privacy = () => {
         className="glass-effect p-8 rounded-2xl"
       >
         <h1 className="text-4xl font-bold text-gradient mb-4">Datenschutzerklärung - UNREP - Unlock Apps with Reps</h1>
-        <p className="text-sm text-gray-400 mb-8">Stand: August 2026</p>
+        <p className="text-sm text-gray-400 mb-8">Stand: Oktober 2026</p>
 
         <div className="space-y-6 text-gray-300">
           <p className="leading-relaxed">
@@ -498,7 +533,7 @@ const Privacy = () => {
               <li className="leading-relaxed">Standortdaten</li>
               <li className="leading-relaxed">Kontaktlisten</li>
               <li className="leading-relaxed">Video- oder Bilddaten der Kamera (ausschließlich lokal verarbeitet, siehe Abschnitt 3)</li>
-              <li className="leading-relaxed">Gesundheits- und Fitnessdaten sowie Screen-Time-/App-Blockierungsdaten (ausschließlich lokal verarbeitet, siehe Abschnitte 5 und 6) — diese Daten erreichen unsere Server zu keinem Zeitpunkt, auch wenn die App um lokale Zugriffsberechtigung dafür bittet</li>
+              <li className="leading-relaxed">Gesundheits- und Fitnessdaten sowie Screen-Time-/App-Blockierungsdaten (ausschließlich lokal verarbeitet, siehe Abschnitte 6 und 7) — diese Daten erreichen unsere Server zu keinem Zeitpunkt, auch wenn die App um lokale Zugriffsberechtigung dafür bittet</li>
             </ul>
           </section>
 
@@ -513,7 +548,7 @@ const Privacy = () => {
                 <span className="text-vami-primary font-semibold">Recht auf Löschung (Art. 17 DSGVO):</span> Du kannst alle lokalen Daten jederzeit über den Button "Alle Daten löschen" in den Einstellungen der App löschen. Dieser entfernt sämtliche lokalen App-Daten dauerhaft, setzt deine Analyse-ID zurück und meldet dich bei RevenueCat ab — die App wird dadurch in den Zustand einer Neuinstallation versetzt. Alternativ erreichst du dasselbe durch Deinstallation der App.
               </li>
               <li className="leading-relaxed">
-                <span className="text-vami-primary font-semibold">Recht auf Widerruf (Art. 7 Abs. 3 DSGVO):</span> Du kannst deine Tracking-Einwilligung jederzeit in den iOS-Systemeinstellungen unter <span className="text-vami-primary font-semibold">Datenschutz &amp; Sicherheit → Tracking</span> widerrufen.
+                <span className="text-vami-primary font-semibold">Recht auf Widerruf (Art. 7 Abs. 3 DSGVO):</span> Du kannst deine Einwilligung zur Analyse jederzeit mit Wirkung für die Zukunft über den Schalter <span className="text-vami-primary font-semibold">&quot;Anonyme Nutzungsdaten teilen&quot;</span> in den Einstellungen der App widerrufen.
               </li>
               <li className="leading-relaxed">
                 <span className="text-vami-primary font-semibold">Widerspruchsrecht (Art. 21 DSGVO):</span> Du kannst der auf berechtigten Interessen gestützten Verarbeitung jederzeit widersprechen.
@@ -540,7 +575,7 @@ const Privacy = () => {
               Wir verfolgen einen <span className="text-vami-primary font-semibold">Privacy-by-Design</span>-Ansatz:
             </p>
             <ul className="space-y-2 ml-4">
-              <li className="leading-relaxed">Die sensibelsten Daten (Kamerabild) werden ausschließlich lokal verarbeitet und nie übertragen - ein unbefugter Zugriff über unsere Server ist technisch ausgeschlossen.</li>
+              <li className="leading-relaxed">Die sensibelsten Daten (Kamerabild) werden ausschließlich lokal verarbeitet und nie an unsere Server übertragen.</li>
               <li className="leading-relaxed">Alle Netzwerkkommunikation (z. B. PostHog-Analyse) ist durch TLS/SSL verschlüsselt.</li>
               <li className="leading-relaxed">Diese Landingpage wird ausschließlich über HTTPS ausgeliefert.</li>
             </ul>
@@ -564,7 +599,43 @@ const Privacy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-3">14. Aktualität und Änderung dieser Datenschutzerklärung</h2>
+            <h2 className="text-2xl font-semibold text-white mb-3">14. Werbung &amp; Installations-Attribution (Meta / Apple SKAdNetwork)</h2>
+            <p className="leading-relaxed mb-3">
+              Wir bewerben die App auf Facebook und Instagram (Meta Platforms Ireland Ltd.). Um zu
+              messen, ob eine Installation auf eine unserer Anzeigen zurückgeht, nutzen wir Apples
+              SKAdNetwork-Framework. Die App enthält kein Meta/Facebook SDK und greift nicht auf deine
+              Werbe-ID (IDFA) zu.
+            </p>
+            <p className="leading-relaxed mb-3">
+              <span className="text-vami-primary font-semibold">Funktionsweise:</span> Die Zuordnung
+              erfolgt durch Apple auf deinem Gerät. Apple übermittelt anschließend eine kryptografisch
+              signierte, anonyme und aggregierte Meldung an Meta, die lediglich die Kampagne und die
+              erfolgte Installation enthält. Es werden keine Gerätekennungen, Nutzungsdaten,
+              Gesundheitsdaten oder sonstigen personenbezogenen Daten aus der App an Meta oder an uns
+              übertragen.
+            </p>
+            <p className="leading-relaxed mb-3">
+              <span className="text-vami-primary font-semibold">Ausspielung der Anzeigen:</span> Für
+              die Ausspielung und Zielgruppenauswahl von Anzeigen auf Facebook und Instagram ist allein
+              Meta verantwortlich. Details findest du in der Datenschutzerklärung von Meta:{' '}
+              <a
+                href="https://www.facebook.com/privacy/policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-vami-primary hover:text-orange-400 transition-colors"
+              >
+                https://www.facebook.com/privacy/policy
+              </a>
+            </p>
+            <p className="leading-relaxed">
+              <span className="text-vami-primary font-semibold">Rechtsgrundlage:</span> Soweit
+              überhaupt personenbezogene Daten verarbeitet werden, unser berechtigtes Interesse an der
+              Erfolgsmessung unserer Werbung (Art. 6 Abs. 1 lit. f DSGVO).
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-white mb-3">15. Aktualität und Änderung dieser Datenschutzerklärung</h2>
             <p className="leading-relaxed">
               Wir können diese Datenschutzerklärung bei Änderungen der App oder der rechtlichen
               Anforderungen aktualisieren. Die jeweils aktuelle Fassung ist stets unter <span className="text-vami-primary font-semibold">vamiapp.com/privacy</span> abrufbar. Wesentliche Änderungen werden, soweit gesetzlich erforderlich, durch einen In-App-Hinweis kommuniziert.
