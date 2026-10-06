@@ -10,6 +10,11 @@ export default defineConfig({
     // Optimierungen für Production Build
     minify: 'esbuild', // Schneller als terser, bereits in Vite enthalten
     rollupOptions: {
+      input: {
+        main: 'index.html',
+        privacy: 'privacy/index.html',
+        terms: 'terms/index.html',
+      },
       output: {
         manualChunks: {
           // Vendor Splitting für besseres Caching
